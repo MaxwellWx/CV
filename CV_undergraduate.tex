@@ -1,0 +1,135 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage{hyperref}
+
+
+%------------------------------------------------
+
+\name{Xuan Wu} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{443 Huangshan Road \\ Hefei, Anhui} % Main address
+
+%\address{123 Pleasant Lane \\ City, State 12345} % A secondary address (optional)
+
+\address{\href{mailto:xuanw@mail.ustc.edu.cn}{xuanw@mail.ustc.edu.cn}} % Contact information
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{rSection}{Personal Statement}
+
+I'm currently a junior student at the Department of Nuclear Science and Technology at USTC.Due to 
+my enthusiasm in computer science,I chose to pursue it as a minor from this
+semester(2024.02) while majoring in Nuclear Science.In my spare time,I 
+self-studied machine learning ,reinforcement learning and other AI technologies,which can 
+support further research in computational physics.Addition to my academic pursuits,I also keep the hobby of cycling and 
+jogging,which I believe can contribute to my physical and mental strength,guaranteeing me 
+for high intensity scientific research.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	
+	\textbf{B.S. at University of Science and Technology of China} \hfill \textit{2021.09-2025.06(expected)} \\ 
+	Major in Nuclear Engineering \& Technology \\
+	Minor in Computer Science \& Technology \smallskip \\
+	Overall GPA: 3.54/4.3\\
+	Department Ranking:10/23\\
+	CET4:626\\
+	CET6:552\\
+	Related Courses:Mathematical Analysis B1(91),Computational Method(95),Atomic Physics A(90),Electrodynamics
+(85),\allowbreak Introduction to Plasma Physics(83),Quantum Mechanics B(93)
+	
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Project}
+
+	\begin{rSubsection}{CT Image Restoration Based on ResNet}{2023.10-2023.11}{}{}
+		\item Build a ResNet(16 levels) based on TensorFlow
+		\item Able to denoise CT images with quantum noise and electronical noise
+		\item Increase average PSNR from 70.2 to 76.0
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{Embodied Intelligence Research}{2024.02-2024.05}{}{}
+		\item Supervised by \href{https://xianghang.me/}{Prof.Xianghang Mi}
+		\item Conduct research on several embodied AI benchmarks,including \href{https://arxiv.org/abs/2112.03227}{Calvin},\href{https://arxiv.org/abs/2310.12020}{LoHo-Ravens},\href{https://arxiv.org/abs/2304.04321}{Arnold},etc.
+		\item Debug and run project code to reproduce the result
+	\end{rSubsection}
+
+	\begin{rSubsection}{5-stage Pipeline CPU Based on Verilog}{2024.03-2024.04}{}{}
+		\item Lab of COD course
+		\item Able to tacle data hazard and control hazard
+	\end{rSubsection}
+
+%------------------------------------------------
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Computer Languages & C/C++,Python,Matlab,Verilog \\
+		Tools & Git,\LaTeX,PyTorch,Linux
+	\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Interests}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Machine Learning\\
+		Computational Physics
+	\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
